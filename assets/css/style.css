@@ -103,40 +103,11 @@ footer {
     height: 200px;
     width: 300px;
     margin: 0 30px 30px 0;
-    position: absolute;
+    position: relative;
+    float: left;
 }
 
-#pic1 {
-    background-image: url(../images/p1.jpg);
-    left: 30px;
-    top: 140px;
-}
-
-#pic2 {
-    background-image: url(../images/p2.jpg);
-    left: 360px;
-    top: 140px;
-}
-
-#pic3 {
-    background-image: url(../images/p3.jpg);
-    left: 30px;
-    top: 380px;
-}
-
-#pic4 {
-    background-image: url(../images/p4.jpg);
-    left: 360px;
-    top: 380px;
-}
-
-#pic5 {
-    background-image: url(../images/p5.jpg);
-    left: 30px;
-    top: 620px;
-}
-
-.p1, .p2, .p3, .p4, .p5 {
+.pics h2 {
     width: 300px;
     height: 60px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
@@ -144,8 +115,8 @@ footer {
     background: #4aaaa5;
     color: white;
     text-align: center;
-    position: relative;
-    top: 60px;
+    position: absolute;
+    top: 54px;
 }
 
 .contact-form {
