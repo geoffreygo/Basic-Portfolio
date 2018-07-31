@@ -7,6 +7,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url(../images/mekong-green.png);
+    position: relative;
 }
 
 header {
@@ -70,10 +71,6 @@ nav a:hover {
     margin: auto;
     border: 2px solid #dddddd;
     line-height: 2em;
-    position: relative;
-}
-.portfolio {
-    height: 900px;
 }
 
 #about, #port-head, #contact-head {
@@ -94,7 +91,6 @@ footer {
     text-align: center;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    margin-top: 80px;
     font-size: 10px;
     padding-top: 15px;
 }
@@ -137,4 +133,15 @@ input[type=submit] {
     color: white;
     padding: 10px;
     border-radius: 4px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.spacer {
+    height: 95px;
+    /* margin-bottom: -65px; */
 }
