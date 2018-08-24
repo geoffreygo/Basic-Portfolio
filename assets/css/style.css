@@ -37,7 +37,7 @@ nav {
     margin: 0;
 }
 
-a {
+.picText {
     position: absolute;
     text-decoration: none;
     color: #777777;
@@ -147,4 +147,127 @@ input[type=submit] {
 .spacer {
     height: 95px;
     /* margin-bottom: -65px; */
+}
+
+#hangman, #trivia {
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 980px) {
+
+    header {
+        height: 93px;
+        border-bottom: 3px solid #cccccc;
+    }
+
+    .bio, .portfolio, .contact-form {
+        width: 750px;
+    }
+
+    #about, #port-head, #contact-head {
+        font-size: 23px;
+        padding-bottom: 19px;
+    }
+
+    nav {
+        width: 750px;
+        height: 90px;
+    }
+
+    nav a:hover {
+        top: 35.5px;
+    }
+
+    a {
+        top: 39px;
+    }
+
+    #name {
+        height: 90px;
+        width: 341px;
+        line-height: 90px;
+        font-size: 23px;
+        padding-left: 19px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        height: 76px;
+        border-bottom: 2px solid #cccccc;
+    }
+
+    .bio, .portfolio, .contact-form {
+        width: 620px;
+    }
+
+    #about, #port-head, #contact-head {
+        font-size: 19px;
+        padding-bottom: 15.5px;
+    }
+
+    nav {
+        width: 620px;
+        height: 74px;
+    }
+
+    nav a:hover {
+        top: 29px;
+    }
+
+    a {
+        top: 32px;
+    }
+
+    #name {
+        height: 74px;
+        width: 280px;
+        line-height: 74px;
+        font-size: 19px;
+        padding-left: 15.5px; 
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    header {
+        height: 54px;
+        border-bottom: 1.5px solid #cccccc;
+    }
+
+    .bio, .portfolio, .contact-form {
+        width: 440px;
+    }
+
+    #about, #port-head, #contact-head {
+        font-size: 13.5px;
+        padding-bottom: 11px;
+    }
+
+    nav {
+        width: 440px;
+        height: 52.5px;
+    }
+    
+    nav a:hover {
+        top: 20.5px;
+    }
+
+    a {
+        top: 23px;
+    }
+
+    .pics {
+        float: none;
+    }
+
+    #name {
+        height: 52.5px;
+        width: 199px;
+        line-height: 52.5px;
+        font-size: 13.5px;
+        padding-left: 11px; 
+    }
 }
