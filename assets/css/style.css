@@ -73,6 +73,10 @@ nav a:hover {
     line-height: 2em;
 }
 
+.portfolio {
+    width: 1060px;
+}
+
 #about, #port-head, #contact-head {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color: #4aaaa5;
